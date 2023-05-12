@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="Spotify_icon.svg.png" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-black h-screen w-screen">
+    <div class="flex">
+        <div class="text-white bg-slate-800 space-x-3">
+            <div class="hidden md:flex">
+
+            </div>
+            <div class="hidden md:flex items-center my-2">
+                <i class="fa-solid fa-2xl fa-house "></i>
+                <a href="" class="font-mono font-semibold mx-2 text-2xl">Home</a>
+            </div>
+            <div class="hidden md:flex items-center my-4">
+                <i class="fa-solid fa-2xl fa-magnifying-glass"></i>
+                <a href="" class="font-serif text-2xl mx-2">Search</a>
+            </div>
+            
+            <div class=" hidden md:flex justify-between items-center">
+                <div class="text-2xl">
+                    <span>|||</span>
+                    <span class="">Your library</span>
+                </div>
+                <div class="mx-4">
+                    <i class="fa-solid  fa-xl fa-plus"></i>
+                    <i class="fa-solid  fa-xl fa-arrow-right"></i>
+                </div>
+            </div>
+           
+        </div>
+        <div class="flex-1  w-/screen ">
+            <nav class="md:h-32 flex bg-green-500 justify-between text-center items-center  "> 
+                <div class="md:flex flex text-2xl items-center font-semibold">
+                    <img src="Spotify_icon.svg.png" class=" h-12 p-2" alt=""> 
+                    <span class="hidde/n  md:flex md:text-bold">spotify</span>
+                </div>
+                <div class="text-white font-semibold md:hidden text-2xl">
+                    <span></span>
+                </div>
+                <div class="text-white font-semibold font-2xl md:hidden">
+                    <i class="fa-regular fa-xl fa-bell"></i>
+                </div>
+                <div class="text-white font-semibold font-2xl md:hidden">
+                    <i class="fa-regular fa-xl fa-clock"></i>
+                </div>
+                <div class="text-white font-semibold font-2xl md:hidden">
+                    <i class="fa-solid fa-xl fa-gear mx-2"></i>
+                </div>
+                <div class="hidden md:flex md:justify-between ">
+                    <i class="fa-regular fa-xl fa-clock mx-2"></i>
+                    <i class="fa-regular fa-xl fa-bell mx-2"></i>
+                    <i class="fa-solid fa-xl fa-gear mx-2"></i>
+                </div>
+            </nav> 
+            <!-- navbar ends here  -->
+            <section class="text-white grid grid-rows-3 grid-flow-col space-x-2 space-y-2 my-2 mx-2 
+            md:grid">
+                <div class="flex border border-x-2 rounded-md bg-slate-800 text-center mx-2 items-center md:mx-5 md:my-5">
+                    <img src="bollywood.jpg" class="h-14" alt="">
+                    <span>Bollywood hits</span>
+                </div>
+                <div class="flex border border-x-2 rounded-md bg-slate-800 text-center items-center">
+                    <img src="mcstan.jpg" class="h-14" alt="">
+                    <span>MC stan hits#1</span>
+                </div>
+                <div class="flex border border-x-2 rounded-md bg-slate-800 text-center items-center">
+                    <img src="arijit.jpg" class="h-14" alt="">
+                    <span>Arijit Singh hits</span>
+                </div>
+                <div class="flex border border-x-2 rounded-md bg-slate-800 text-center items-center">
+                    <img src="myplaylist.png" class="h-14" alt="">
+                    <span>My playlist</span>
+                </div>
+                <div class="flex border border-x-2 rounded-md bg-slate-800 text-center items-center">
+                    <img src="new arrival.jpg" class="h-14" alt="">
+                    <span>New Arrivals
+                    </span>
+                </div>
+                <div class="flex border border-x-2 rounded-md bg-slate-800 text-center items-center ">
+                    <img src="likedsongs.jpg" class="h-14" alt="">
+                    <span>Liked Songs on spotify</span>
+                </div>       
+            </section>
+            <!-- section 1 ends here -->
+            <section class="">
+                <div class=" flex  flex-col font-semibold m-2">
+                    <span class="text-2xl text-white">
+                        Your playlist
+                    </span>
+                    <span class="text-sm text-white font-thin">
+                        10 songs
+                    </span>
+                </div>
+                <div class="flex justify-between m-2">
+                    <div>
+                        <i class="fa-sharp fa-regular fa-2x fa-circle-down cursor-pointer" style="color: hsl(137, 3%, 50%)"></i>
+                    </div>
+                    <div class="mx-2 space-x-2">
+                        <i class="fa-solid fa-2x fa-shuffle" style="color: hsl(137, 3%, 50%)"></i>
+                        <i class="fa-solid fa-2x fa-heart" style="color: #f55809"></i>
+                        <i class="fa-solid fa-2x fa-play-circle"style="color: #0ef15a" ></i>
+                    </div>
+                </div>
+            </section>
+            <!-- songs section starts here -->
+            <section class="text-white  md:justify-center">
+                <div class="flex justify-between songitem mx-2 space-x-2">
+                    <div class="flex items-center space-x-2">
+                        <span class="text-2xl">1.</span>
+                        <img src="1.jpg" class="h-14 w-14" alt="">
+                    </div>
+                    <div class="text-center flex items-center">
+                        <span class="songName">title</span>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                       
+                        <i class="far fa-xl fa-play-circle my-2 songItemPlay p-2" style="color: #0ef15a" id="0"></i>
+                        <i class="fa-solid fa-xl fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+                <div class="flex justify-between songitem mx-2 space-x-2">
+                    <div class="flex items-center space-x-2">
+                        <span class="text-2xl">2.</span>
+                        <img src="1.jpg" class="h-14 w-14" alt="">
+                    </div>
+                    <div class="text-center flex items-center">
+                        <span class="songName">title</span>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <!-- <i class="fa-solid fa-xl fa-heart" style="color: #0ef15a"></i> -->
+                        <i class="far fa-xl fa-play-circle my-2 songItemPlay p-2" style="color: #0ef15a" id="1"></i>
+                        <i class="fa-solid fa-xl fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+                <div class="flex justify-between songitem mx-2 space-x-2">
+                    <div class="flex items-center space-x-2">
+                        <span class="text-2xl">3.</span>
+                        <img src="1.jpg" class="h-14 w-14" alt="">
+                    </div>
+                    <div class="text-center flex items-center">
+                        <span class="songName">title</span>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <!-- <i class="fa-solid fa-xl fa-heart" style="color: #0ef15a"></i> -->
+                        <i class="far fa-xl fa-play-circle my-2 songItemPlay p-2" style="color: #0ef15a" id="2"></i>
+                        <i class="fa-solid fa-xl fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+                <div class="flex justify-between  songitem mx-2 space-x-2 ">
+                    <div class="flex items-center space-x-2">
+                        <span class="text-2xl">4.</span>
+                        <img src="1.jpg" class="h-14 w-14" alt="">
+                    </div>
+                    <div class="text-center flex items-center">
+                        <span class="songName">title</span>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <!-- <i class="fa-solid fa-xl fa-heart" style="color: #0ef15a"></i> -->
+                        <i class="far fa-xl fa-play-circle my-2 songItemPlay p-2" style="color: #0ef15a" id="3"></i>
+                        <i class="fa-solid fa-xl fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+                <div class="flex justify-between songitem mx-2 space-x-2">
+                    <div class="flex items-center space-x-2">
+                        <span class="text-2xl">5.</span>
+                        <img src="1.jpg" class="h-14 w-14" alt="">
+                    </div>
+                    <div class="text-center flex items-center">
+                        <span class="songName">title</span>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <!-- <i class="fa-solid fa-xl fa-heart" style="color: #0ef15a"></i> -->
+                        <i class="far fa-xl fa-play-circle my-2 songItemPlay p-2" style="color: #0ef15a" id="4"></i>
+                        <i class="fa-solid fa-xl fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+                <div class="flex justify-between songitem mx-2 space-x-2">
+                    <div class="flex items-center space-x-2">
+                        <span class="text-2xl">6.</span>
+                        <img src="1.jpg" class="h-14 w-14" alt="">
+                    </div>
+                    <div class="text-center flex items-center">
+                        <span class="songName">title</span>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <!-- <i class="fa-solid fa-xl fa-heart" style="color: #0ef15a"></i> -->
+                        <i class="far fa-xl fa-play-circle my-2 songItemPlay p-2" style="color: #0ef15a" id="5"></i>
+                        <i class="fa-solid fa-xl fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+                <div class="flex justify-between songitem mx-2 space-x-2">
+                    <div class="flex items-center space-x-2">
+                        <span class="text-2xl">7.</span>
+                        <img src="1.jpg" class="h-14 w-14" alt="">
+                    </div>
+                    <div class="text-center flex items-center">
+                        <span class="songName">title</span>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <!-- <i class="fa-solid fa-xl fa-heart" style="color: #0ef15a"></i> -->
+                        <i class="far fa-xl fa-play-circle my-2 songItemPlay p-2" style="color: #0ef15a" id="6"></i>
+                        <i class="fa-solid fa-xl fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+                <div class="flex justify-between songitem mx-2 space-x-2">
+                    <div class="flex items-center space-x-2">
+                        <span class="text-2xl">8.</span>
+                        <img src="1.jpg" class="h-14 w-14" alt="">
+                    </div>
+                    <div class="text-center flex items-center">
+                        <span class="songName">title</span>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <!-- <i class="fa-solid fa-xl fa-heart" style="color: #0ef15a"></i> -->
+                        <i class="far fa-xl fa-play-circle my-2 songItemPlay p-2" style="color: #0ef15a" id="7"></i>
+                        <i class="fa-solid fa-xl fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+                <div class="flex justify-between songitem mx-2 space-x-2">
+                    <div class="flex items-center space-x-2">
+                        <span class="text-2xl">9.</span>
+                        <img src="1.jpg" class="h-14 w-14" alt="">
+                    </div>
+                    <div class="text-center flex items-center">
+                        <span class="songName">title</span>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <!-- <i class="fa-solid fa-xl fa-heart" style="color: #0ef15a"></i> -->
+                        <i class="far fa-xl fa-play-circle my-2 songItemPlay p-2" style="color: #0ef15a" id="8"></i>
+                        <i class="fa-solid fa-xl fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+                <div class="flex justify-between songitem mx-2 space-x-2">
+                    <div class="flex items-center space-x-2">
+                        <span class="text-2xl">10.</span>
+                        <img src="1.jpg" class="h-14 w-14" alt="">
+                    </div>
+                    <div class="text-center flex items-center">
+                        <span class="songName">title</span>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <!-- <i class="fa-solid fa-xl fa-heart" style="color: #0ef15a"></i> -->
+                        <!-- <i class="fa-solid fa-xl fa-play-circle songItemPlay" style="color: #0ef15a" id="6"></i> -->
+                        <i class="far fa-xl fa-play-circle my-2 songItemPlay p-2" style="color: #0ef15a" id="9"></i>
+                        <i class="fa-solid fa-xl fa-ellipsis-vertical"></i>
+                    </div>
+                </div> 
+                <div class="flex justify-between songitem mx-2 space-x-2">
+                    <div class="flex items-center space-x-2">
+                        <span class="text-2xl">11.</span>
+                        <img src="1.jpg" class="h-14 w-14" alt="">
+                    </div>
+                    <div class="text-center flex items-center">
+                        <span class="songName">title</span>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <!-- <i class="fa-solid fa-xl fa-heart" style="color: #0ef15a"></i> -->
+                        <!-- <i class="fa-solid fa-xl fa-play-circle songItemPlay" style="color: #0ef15a" id="6"></i> -->
+                        <i class="far fa-xl fa-play-circle my-2 songItemPlay p-2" style="color: #0ef15a" id="10"></i>
+                        <i class="fa-solid fa-xl fa-ellipsis-vertical"></i>
+                    </div>
+                </div> 
+                <div class="flex justify-between songitem mx-2 space-x-2">
+                    <div class="flex items-center space-x-2">
+                        <span class="text-2xl">12.</span>
+                        <img src="1.jpg" class="h-14 w-14" alt="">
+                    </div>
+                    <div class="text-center flex items-center">
+                        <span class="songName">title</span>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <!-- <i class="fa-solid fa-xl fa-heart" style="color: #0ef15a"></i> -->
+                        <!-- <i class="fa-solid fa-xl fa-play-circle songItemPlay" style="color: #0ef15a" id="6"></i> -->
+                        <i class="far fa-xl fa-play-circle my-2 songItemPlay p-2" style="color: #0ef15a" id="11"></i>
+                        <i class="fa-solid fa-xl fa-ellipsis-vertical"></i>
+                    </div>
+                </div> 
+            </section>
+        </div>
+    </div>
+    <footer class="fixed bottom-0 bg-transparent text-white">
+        <div></div>
+        <div class="flex justify-center">
+            <!-- <img src="swasti.gif" class="h-12 gif" alt=""> -->
+            <ul>
+                <li class="space-x-4">
+                    <i class="fa-solid fa-xl fa-shuffle" style="color: #b6b1b1;"></i>
+                    <i class="fa-solid fa-2x fa-backward-fast" style="color: #fff" id="previous"></i>
+                    <!-- <i class="far fa-3x fa-play-circle" style="color: #dce8e0;" id="masterPlay"></i> -->
+                    <i class="fa-solid fa-3x fa-play-circle" style="color: hsl(140, 94%, 50%)" id="masterPlay"></i>
+                    <!-- <i class="fa-solid fa-circle-play" style="color: #edf3ef;" id="masterPlay"></i> -->
+                    <i class="fa-solid fa-2x fa-forward-fast" id="next" style="color:#fff"></i>
+                    <i class="fa-solid fa-xl fa-repeat" style="color: #b6b1b1;"></i>
+                </li>
+            </ul>
+        </div>
+        <div class="flex bottom-0 justify-center mx-auto">
+            <div class="flex   rounded-full">
+                <input type="range" name="" class="w-screen my-2 songItemPlay" id="myProgressbar" value="0" />
+            </div>
+        </div>
+    </footer>
+   <script src="script.js"></script>
+</body>
+
+</html>

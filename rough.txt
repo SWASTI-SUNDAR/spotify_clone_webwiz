@@ -1,0 +1,17 @@
+<div class=" hidden md:flex">
+            <i class="fa-solid fa-house"></i>
+            <span>Home</span>
+        <div class=" hidden md:flex">
+            <i class="fa-solid fa-house"></i>
+            <span>Home</span>
+        <div class=" hidden md:flex">
+            <i class="fa-solid fa-house"></i>
+            <span>Home</span>
+        </div>
+        <div class=" hidden md:flex">
+            <i class="fa-solid fa-house"></i>
+            <span>Home</span>
+        </div>
+        plus and arrow
+         <i class="fa-solid  fa-xl fa-plus m-2"></i>
+                        <i class="fa-solid  fa-xl fa-arrow-right"></i>
